@@ -1,9 +1,74 @@
-<!DOCTYPE html>>
-<html>
-    <head>
-><link rel="stylesheet" href="page.css">
-    </head>
-    <body>
-        <img src="tree_noun_001_18152.jpg">
-    </body>
-</html>
+
+@keyframes s {
+from{
+margin-left:0;
+}
+to{
+margin-left:90%;
+}
+}
+
+@keyframes d{
+    from{
+        margin-top: 0;
+margin-left: 90%;
+    }
+    to{
+margin-top: 30%;
+margin-left: 90%;
+    }
+}
+@keyframes v{
+    from{
+        margin-top: 30%;
+        margin-left: 90%;
+        margin-right: 0;
+    }
+    to{
+        margin-top: 30%;
+        margin-left: 0;
+        margin-right: 90%;
+    }
+}
+@keyframes b{
+    from{
+        margin-top: 30%;
+        margin-left: 0;
+        margin-right: 90%;
+    }
+    to{
+      
+        margin-left: 0;
+        margin-right: 90%;
+        margin-bottom: 30%;
+    }
+    }
+@keyframes h{
+    from{ margin-left: 0;
+        margin-right: 90%;
+        margin-bottom: 30%;}
+    to{
+        margin-top: 20%;
+        margin-left: 45%;
+
+    }
+}
+@keyframes o{
+    from{
+        margin-top: 20%;
+        margin-left: 45%;
+    }
+    to{
+        margin-top: 20%;
+        margin-left: 45%;
+        width: 300px;
+        height: 300px;
+    }
+}
+img{
+    width: 100px;
+    height: 200px;
+    animation:1s 1s  s,1s 2s  d,1s 3s v,1s 4s b,1s 5s h,1s 6s o;
+  
+   
+}
